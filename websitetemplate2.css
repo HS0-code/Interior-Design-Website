@@ -33,6 +33,7 @@ body {
   font-size: 24px;
   color: white;
 }
+
 #left-side {
   position: fixed;
   top: 0;
@@ -93,6 +94,7 @@ body {
 #img-container {
   width: 100%;
 }
+
 #img-container img {
   opacity: 0.8;
   margin-bottom: -6px;
@@ -108,7 +110,6 @@ body {
 #services {
   width: 100%;
   margin-top: 80px;
-
   transition: margin-left 0.5s ease;
 }
 
@@ -127,7 +128,6 @@ body {
 
 #designers {
   margin-top: 80px;
-
   transition: margin-left 0.5s ease;
 }
 
@@ -145,7 +145,7 @@ body {
 }
 
 .text-wrapper {
-  width: calc(100%-20px);
+  width: calc(100% - 20px);
   padding: 0px 10px;
 }
 
@@ -170,6 +170,7 @@ body {
 #packages-pro {
   width: 45%;
 }
+
 #packages-title h4 {
   font-size: 48px;
   color: rgb(244, 67, 54);
@@ -296,6 +297,7 @@ body {
   #header {
     display: flex;
   }
+
   #left-side {
     display: none;
   }
